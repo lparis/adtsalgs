@@ -25,13 +25,18 @@ public class Hasher
 
 	public static void main(String[] args) throws NoSuchAlgorithmException
 	{
-		String string1 = "Suppose he should relent and publish grace to all, on promise made of new subjection, with what eyes could we stand in his presence humble?";
+		String string1 = "Suppose he should relent and publish grace to all, "
+				+ "on promise made of new subjection, "
+				+ "with what eyes could we stand in his presence humble?";
 		getHash(string1);
 	
-		String string2 = "Suppose he should relent and publish grace to all, on promise made of new subjection, with what eyes could we stand in his presence humble?";
+		String string2 = "Suppose he should relent and publish grace to all, "
+				+ "on promise made of new subjection, "
+				+ "with what eyes could we stand in his presence humble?";
 		getHash(string2);		
 		
 //		String string3 = "Central garbage collection";
-//		getHash(string3);		
+//		getHash(string3);
+		
 	}
 }

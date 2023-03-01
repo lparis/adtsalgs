@@ -10,8 +10,8 @@ import java.nio.charset.StandardCharsets;
 /**
  * Program for generating kanji component dependency order via topological sort.
  * 
- * @author (your name), Acuna
- * @version (version)
+ * @author lbparis, Acuna
+ * @version 3.0
  */
 public class BaseMain {
     
